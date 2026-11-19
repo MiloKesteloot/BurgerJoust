@@ -11,9 +11,19 @@ public class DestroyBurger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < -6)
+        
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Floor"))
         {
-            Destroy(gameObject);
+            Destroy(this.gameObject);
+        }
+
+        if (other.CompareTag("Player"))
+        {
+            Destroy(this.gameObject);
         }
     }
 }
