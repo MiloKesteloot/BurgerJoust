@@ -359,7 +359,6 @@ GameObject:
   - component: {fileID: 867385295}
   - component: {fileID: 867385296}
   - component: {fileID: 867385297}
-  - component: {fileID: 867385298}
   m_Layer: 0
   m_Name: Joust
   m_TagString: Joust
@@ -476,7 +475,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.5}
+  m_Offset: {x: 0, y: 1.15}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -486,21 +485,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.5, y: 0.95}
   m_EdgeRadius: 0
---- !u!114 &867385298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867385294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 649e27d7bbd638041abf0c5f13d8d4f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::JoustList
-  ingredients: 
 --- !u!1 &939279849
 GameObject:
   m_ObjectHideFlags: 0
